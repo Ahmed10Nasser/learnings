@@ -57,7 +57,7 @@ often unavailable distributed transactions (2PC).
 
 - **At-least-once delivery**: a crash after publishing but before marking the row sent
   causes a re-publish. Consumers **must be idempotent** (dedupe on event id) or use
-  the [Inbox pattern](#) on the receiving side.
+  the [Inbox pattern](inbox-pattern.md) on the receiving side.
 - **Ordering**: publish in insertion order (e.g. by monotonic id) if consumers need
   ordering; partition-aware brokers may need a partition key per aggregate.
 - **Latency**: polling introduces delay; tune interval vs. load. CDC is near-real-time.
