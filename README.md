@@ -9,7 +9,7 @@ notes are named, formatted, and added.
 ## Contents
 
 - [Design Patterns](design-patterns/) — creational, structural, behavioral, and beyond.
-- [System Architecture](system-architecture/) — architecture styles, scalability, distributed systems.
+- [System Design](system-design/) — architecture styles, scalability, distributed systems.
 - [Databases](databases/) — data modeling, indexing, transactions, SQL & NoSQL.
 - [Best Practices](best-practices/) — code quality, testing, git, reviews, dev workflow.
 - [Languages](languages/) — language- and runtime-specific learnings.

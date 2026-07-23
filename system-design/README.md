@@ -1,4 +1,4 @@
-# System Architecture
+# System Design
 
 Architecture styles, scalability, reliability, and distributed-systems concepts —
 from monoliths and microservices to caching, messaging, and consistency trade-offs.
